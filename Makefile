@@ -1,2 +1,2 @@
 test:
-	g++ main.cpp -o test -lGLEW -lGLU -lGL -lglfw
+	g++ ./src/* -o test -lGLEW -lGLU -lGL -lglfw
