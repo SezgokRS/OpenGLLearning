@@ -1,8 +1,8 @@
-#pragman once
+#pragma once
 #ifndef _MESH_H_
 #define _MESH_H_
 #include <GL/glew.h>
-class Mesh{
+class mesh{
 public:
 	mesh();
 	void createMesh(GLfloat *vertices, unsigned int *indices, unsigned int numOfVertices, unsigned int numOfIndices);
